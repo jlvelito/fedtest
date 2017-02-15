@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+    <head>
+        <title>FED test</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://use.fontawesome.com/2a37e6fe21.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <h3>FED test / Luis Velito</h3>
+                    <h4>Todos los números en un input / reordenamiento de valor ingresado</h4>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="numbers">Ingresa los números a comparar:</label>
+                            <input type="text" class="form-control digitSpaces" id="numbers" aria-describedby="numberdesc" placeholder="Ingresa los números">
+                            <small id="numberdesc" class="form-text text-muted">Pon un espacio de separación entre ellos.</small>
+                        </div>
+                    </form>
+                    <div class="col-md-12 col-xs-12">
+                        <ul class="col-md-12 col-xs-12" id="order">
+
+                        </ul>
+                    </div>
+                    <h4>Ingreso paso a paso / reordenamiento de valor ingresado</h4>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <label for="numbers_2">Ingresa los números a comparar:</label>
+                            <input type="number" class="form-control digits" id="numbers_2" aria-describedby="numberdesc2" placeholder="Ingresa el número">
+                            <button type="submit" id="evaluator" class="btn btn-primary">Agregar número</button>
+                        </div>
+                    </form>
+                    <div class="col-md-12 col-xs-12">
+                        <ul class="col-md-12 col-xs-12" id="order_2">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
